@@ -1,0 +1,103 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    font-family: Times New Roman;
+    font-size: 35px;
+  }
+  
+  #description {
+    text-align: center;
+    color: white;
+    padding-bottom: 2em; 
+    font-family: Tahoma;
+    font-size: 20px;
+  }
+  
+  main {
+    padding-bottom: 2em;
+  }
+  
+  #survey-form {
+    background-color: darkred;
+    padding: 1.5em;
+    border-radius: 2%;
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 400px;
+    min-width: 600px;
+  }
+  
+  .field1, .field2, .field3, .field4, field5 {
+    border: none;
+    padding: 0.5em;
+  }
+  
+  label {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+    vertical-align: middle;
+    display: block;
+    margin: 0.5em 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .inline, #check1, #check2, #check3, #check4, #check5 {
+    width: unset;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  #name {
+    border: 2em;
+  }
+  
+  .select-text {
+    font-family: Tahoma;
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    color: rgb(245, 245, 245);
+  }
+  
+  #dropdown {
+    width: 100%;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  textarea {
+    resize: none;
+    width: 100%;
+  }
+  
+  .field5 {
+    padding-bottom: 0.5em;
+  }
+  
+  .submit {
+    color: darkred;
+    font-family: Tahoma;
+    font-size: 18px;
+  }

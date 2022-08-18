@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="MDA">
+    <meta name="description" content="Welcome to our gym's suscription form!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Suscription Form</title>
+</head>
+
+<!---------------------->
+<!---------------------->
+
+<body>
+  <header>
+    <h1 id="title">Lovecraft Circle</h1>
+    <p id="description">Here you have our form to subscribe to our weekly newsletter:</p>
+  </header>
+  <main>
+    <form id="survey-form">
+      <fieldset class="field1">
+        <label for="name" id="name-label">Name
+        <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+        <label for="email" id="email-label">Email
+        <input type="email" id="email" placeholder="Enter your Email" required>
+        </label>
+        <label for="number" id="number-label">Age
+        <input type="number" id="number" placeholder="Age" min="18" max="120" required>
+        </label>
+      </fieldset>
+      <fieldset class="field2">
+        <p class="select-text">Where are you from?</p>
+        <select name="dropdownlist" id="dropdown">
+          <option value="africa">Africa</option>
+          <option value="antarctica">Antarctica Continent</option>
+          <option value="american-continent" selected>American Continent</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+      </fieldset>
+      <fieldset class="field3">
+        <p class="select-text">How would you primarily describe yourself?</p>
+        <label for="radio1">
+          <input class="inline" type="radio" id="radio1" value="rad1" name="radio"> Lovecraftian
+        </label>
+        <label for="radio2">
+          <input class="inline" type="radio" id="radio2" value="rad2" name="radio"> Enthusiast
+        </label>
+      </fieldset>
+      <fieldset class="field4"><p class="select-text">Choose your favourite masterpieces!</p>
+        <label for="check1">
+          <input type="checkbox" id="check1" name="checkbox1" value="first-checkbox"> The Call of Cthulhu
+        </label>
+        <label for="check2">
+          <input type="checkbox" id="check2" name="checkbox2" value="second-checkbox"> The Shadow Over Innsmouth
+        </label>
+        <label for="check3">
+          <input type="checkbox" id="check3" name="checkbox3" value="third-checkbox"> The Whisperer in Darkness
+          </label>
+          <label for="check4">
+            <input type="checkbox" id="check4" name="checkbox4" value="fourth-checkbox"> The Dunwich Horror
+          </label>
+          <label for="check5">
+            <input type="checkbox" id="check5" name="checkbox5" value="fifth-checkbox"> At The Mountains of Madness
+      </fieldset>
+      <fieldset class="field5"><p class="select-text">Any idea or suggestion you would like to share with us?</p>
+        <textarea cols="35" rows="5" name="comments">
+
+        </textarea>
+      </fieldset>
+      <input class="submit" type="submit" id="submit" value="Subscribe!">
+    </form>
+  </main>
+</body>
+</html>
