@@ -41,7 +41,11 @@
     min-width: 600px;
   }
   
-  .field1, .field2, .field3, .field4, field5 {
+  .field1 {
+  margin-right: 1.5em;
+}
+
+  .field1, .field2, .field3, .field4, .field5 {
     border: none;
     padding: 0.5em;
   }
